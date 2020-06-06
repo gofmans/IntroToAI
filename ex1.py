@@ -4,8 +4,6 @@ import math
 from copy import deepcopy
 
 
-ids = ["312884323", "318471208"]
-
 class State:
     def __init__(self,_game,_boxes,_walls,_free_goals,_taken_goals,_ice,_gcount,_pos,_free):
         self.game = _game
